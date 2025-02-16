@@ -6,7 +6,6 @@ import {
 	InformationCircleIcon,
 	PhoneIcon,
 	BanknotesIcon,
-	ArchiveBoxXMarkIcon,
 	HomeIcon,
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
@@ -16,27 +15,27 @@ import { usePathname } from 'next/navigation'
 // Depending on the size of the application, this would be stored in a database.
 const links = [
 	{
-		name: 'Main page',
+		name: 'Главная',
 		href: '/dashboard',
 		icon: HomeIcon,
 	},
 	{
-		name: 'Orders',
+		name: 'Заказы',
 		href: '/dashboard/invoices',
 		icon: BanknotesIcon,
 	},
 	{
-		name: 'Clients',
+		name: 'Клиенты',
 		href: '/dashboard/customers',
 		icon: UserGroupIcon,
 	},
 	{
-		name: 'Contacts',
+		name: 'Контакты',
 		href: '/dashboard/contacts',
 		icon: PhoneIcon,
 	},
 	{
-		name: 'About-us',
+		name: 'О нас',
 		href: '/dashboard/aboutus',
 		icon: InformationCircleIcon,
 	},
